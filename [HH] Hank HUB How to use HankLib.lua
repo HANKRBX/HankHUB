@@ -1,3 +1,13 @@
+local TabButtonIcon = {
+    "rbxassetid://3926305904", Vector2.new(964, 924), -- Local
+    "rbxassetid://3926307971", Vector2.new(964, 4), -- Tools
+    "rbxassetid://3926307971", Vector2.new(84, 44), -- Visual
+    "rbxassetid://3926305904", Vector2.new(138, 4), -- Teleport
+    "rbxassetid://3926305904", Vector2.new(644, 364), -- Misc
+    "rbxassetid://3926307971", Vector2.new(324, 124), -- Settings
+    "rbxassetid://3926305904", Vector2.new(564, 564), -- Credits
+}
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/HANKRBX/HankHUB/main/%5BHH%5D%20Hank%20HUB%20HankLib.lua", true))() -- Library Loadstring
 
 local Window = Library:Window("YourHUBName", "Adopt Me Scam") -- Create a new Window and Main Title
